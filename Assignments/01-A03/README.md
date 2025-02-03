@@ -1,4 +1,7 @@
-To understand what binary tree search tree is we must first understand what a binary tree is. A binary tree is a hierarchical and systematic data structure in C++ where each node can have at most two children. A node is a basic building block of a binary tree. It has data and pointers to its left and right children. The topmost node in the tree is known as a root, and lastly a node that has no children is known as a leaf.
+To understand what binary tree search tree is we must first understand what a binary tree is. A binary tree is a hierarchical and systematic data structure in C++ where each node can have at most two children. 
+
+A node is a basic building block of a binary tree. It has data and pointers to its left and right children. The topmost node in the tree is known as a root, and lastly a node that has no children is known as a leaf.
+
 According to geeksforgeeks.com "A Binary Search Tree is a data structure used for organizing and storing data in a sorted manner. Binary search tree follows all properties of binary tree and for every nodes, its left subtree contains values less than the node and the right subtree contains values greater than the node."
 
  ![1_8_QJ6hYqWdLomvwNt6ydBg](https://github.com/user-attachments/assets/bc054bcb-ad05-4c03-acc0-758fe89a49f5)
