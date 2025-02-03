@@ -16,14 +16,17 @@ How it works: Start from the root and compare the value with the current node. I
 
 3. Traversal: To visit all nodes in a specific order.
 
-Types:
 In-order: Left subtree → Node → Right subtree (gives sorted order for a BST).
+
 Pre-order: Node → Left subtree → Right subtree.
+
 Post-order: Left subtree → Right subtree → Node.
 
 4. Find Minimum/Maximum: To find the smallest or largest value in the tree.
+
 How it works:
 Find minimum: Keep moving to the left child until you reach a node with no left child.
+
 Find maximum: Keep moving to the right child until you reach a node with no right child.
 
 5. Height/Depth Calculation: To determine how tall the tree is (the number of levels).
@@ -35,13 +38,17 @@ How it works: Recursively check the height of the left and right subtrees and co
 7. Successor/Predecessor: To find the next higher or lower value relative to a given node.
 
 Successor: The smallest value larger than the current node, typically the leftmost node in the right subtree.
+
 Predecessor: The largest value smaller than the current node, typically the rightmost node in the left subtree.
 
 8. Deletion: To remove a value from the tree while keeping the structure intact.
 
 There are three cases:
+
 Leaf node (no children): Just remove the node.
+
 One child: Replace the node with its child.
+
 Two children: Replace the node with its in-order successor (the smallest node in the right subtree) and delete the successor.
 
 According to Chatgpt:
