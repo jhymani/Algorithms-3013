@@ -12,4 +12,5 @@ Rotations: Rotations are operations that rearrange the tree structure by rotatin
 
  There are four main types of rotations: Left-Left (LL), Right-Right (RR), Left-Right (LR), and Right-Left (RL). 
 
-![images (2)](https://github.com/user-attachments/assets/8aa19d2c-c55d-475b-baec-f6e71178b6ca)
+
+![AVL-Tree-in-Javascript](https://github.com/user-attachments/assets/4d886bb0-6fee-40a5-acc9-64426cb8080b)
