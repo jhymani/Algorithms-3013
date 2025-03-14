@@ -1,6 +1,6 @@
-To understand what binary tree search tree is we must first understand what a binary tree is. A binary tree is a hierarchical and systematic data structure in C++ where each node can have at most two children. 
+A binary tree is a hierarchical and systematic data structure in C++ where each node can have at most two children. 
 
-A node is a basic building block of a binary tree. It has data and pointers to its left and right children. The topmost node in the tree is known as a root, and lastly a node that has no children is known as a leaf.
+A node is a basic building block of a binary tree. It has data within it's pointers, which points to itself with left and right children. The topmost node in the tree is known as a root, and a node that has no children is known as a leaf.
 
 According to geeksforgeeks.com "A Binary Search Tree is a data structure used for organizing and storing data in a sorted manner. Binary search tree follows all properties of binary tree and for every nodes, its left subtree contains values less than the node and the right subtree contains values greater than the node."
 
@@ -8,13 +8,14 @@ According to geeksforgeeks.com "A Binary Search Tree is a data structure used fo
 
 # Functions Possible In Binary Search Trees:
 
-1. Insertion: To add a new value to the tree while maintaining the binary search property.
-How it works: Start from the root. If the new value is smaller than the current node's value, move to the left child; if larger, move to the right. Repeat until you find an empty spot to insert the value.
+1. Insertion: This adds a new value to the tree while maintaining the binary search property.
+How it works: It starts from the root. If the new value is smaller than the current node's value, move to the left child; if larger, move to the right. Repeat until you find an empty spot to insert the value.
 
-2. Search: To find if a value exists in the tree.
-How it works: Start from the root and compare the value with the current node. If it's smaller, go left; if larger, go right. Continue until you find the value or reach a nullptr (not found).
+2. Search: This locates a value that exists in the tree.
+How it works: It starts from the root and compares the value with the current node. If it's smaller, move to the left; if larger, go right. Continue until you find the value or reach nullptr (not found).
 
-3. Traversal: To visit all nodes in a specific order.
+3. Traversal: This visits all nodes in a specific order.
+Types:
 
 In-order: Left subtree → Node → Right subtree (gives sorted order for a BST).
 
@@ -22,18 +23,18 @@ Pre-order: Node → Left subtree → Right subtree.
 
 Post-order: Left subtree → Right subtree → Node.
 
-4. Find Minimum/Maximum: To find the smallest or largest value in the tree.
+4. Find Minimum/Maximum: This finds the smallest or largest value in the tree.
 
 How it works:
 Find minimum: Keep moving to the left child until you reach a node with no left child.
 
 Find maximum: Keep moving to the right child until you reach a node with no right child.
 
-5. Height/Depth Calculation: To determine how tall the tree is (the number of levels).
+5. Height/Depth Calculation: This determines how tall the tree is (the number of levels).
 How it works: Recursively calculate the height of the left and right subtrees and return the larger value plus one.
 
 6. Check if BST is Balanced: To check if the tree is balanced (the height difference between the left and right subtrees is not more than 1 for all nodes).
-How it works: Recursively check the height of the left and right subtrees and compare their difference.
+How it works: Recursively checks the height of the left and right subtrees and compares their difference.
 
 7. Successor/Predecessor: To find the next higher or lower value relative to a given node.
 
@@ -41,7 +42,11 @@ Successor: The smallest value larger than the current node, typically the leftmo
 
 Predecessor: The largest value smaller than the current node, typically the rightmost node in the left subtree.
 
-8. Deletion: To remove a value from the tree while keeping the structure intact.
+e.g. ![Inorder-Predecessor-and-Successor-in-Binary-Search-Tree](https://github.com/user-attachments/assets/68cc5ffe-41ac-47bf-8470-36af5713f9be)
+ 
+The predecessor of node 25 is the rightmost element in the left of the subtree, which is 20. The successor of node 25 is the leftmost element in the right of the subtree, which is 35.
+
+8. Deletion: This removes a value from the tree while keeping the general structure  of it intact.
 
 There are three cases:
 
@@ -96,12 +101,12 @@ According to Chatgpt:
 # **Node with Two Children**
 
 - The node has **two children** (left and right).
-- How to delete: This is the most complex case. You need to replace the node with a value that preserves the BST structure. There are two common ways to do this:
+- How to delete: This is the most complex case. we need to replace the node with a value that preserves the general BST structure. There are two common ways to do this:
 
-   - Replace with the in-order predecessor: The largest value in the left subtree (the rightmost node of the left subtree).
-   - Replace with the in-order successor: The smallest value in the right subtree (the leftmost node of the right subtree).
+   - Replace with its in-order predecessor: The largest value in the left subtree (the rightmost node of the left subtree).
+   - Replace with its in-order successor: The smallest value in the right subtree (the leftmost node of the right subtree).
 
-   Once you've chosen the replacement value, you swap the values and then delete the node in the subtree where the replacement came from (which will be either a leaf or have one child).
+   Once we have chosen the replacement value, we swap the values and then delete the node in the subtree where the replacement came from. Which will either be just a leaf or it may have just have one child.
 
    **Example**:
    ```
@@ -124,7 +129,7 @@ According to Chatgpt:
      5   15
    ```
 
-Code Example for Deletion:
+Code Example for Deletion from geeksforgeeks.org:
 
 ```
 struct Node {
