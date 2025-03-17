@@ -6,3 +6,4 @@
 |  2  | [01-A02](./01-A02/README.md) |Slack Registration|
 |  3  | [01-A03](./01-A03/README.md) | binary search tree Delete|           
 |  4  |[05-H01](./05-H01/READme.md) |AVL Trees |           
+|  5  |[06-H02](./06-H02/PartA.md) |Hashing |    
