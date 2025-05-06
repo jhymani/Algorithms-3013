@@ -1,4 +1,4 @@
-# Bellman-Ford Algorithm Presentation README
+# Bellman-Ford Algorithm Presentation
 
 **Presenters:** Jhymani Joseph & Edvin Benjamin
 **Course:** 3013 Algorithms with Dr. Terry Griffin
