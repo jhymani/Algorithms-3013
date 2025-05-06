@@ -7,6 +7,6 @@
 |  3  | [01-A03](./01-A03/README.md) | binary search tree Delete|           
 |  4  |[05-H01](./05-H01/READme.md) |AVL Trees |           
 |  5  |[06-H02](./06-H02/PartA.md) |Hashing |    
-|  6  |[[09-A04](./09-A04/READme.md) |Celebration of Scholorship |
+|  6  |[09-A04](./09-A04/READme.md) |Celebration of Scholorship |
 |  7  |[06-H02](./06-H02/PartA.md) |Presentation |   
 
