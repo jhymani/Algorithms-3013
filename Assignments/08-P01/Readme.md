@@ -106,23 +106,6 @@ B → D (5)
 
    * Detects arbitrage opportunities via negative cycles.
    * Models currencies as nodes and exchange rates as edges.
-
----
-
-## 📝 Sample Test Questions
-
-1. **What can Bellman-Ford do that Dijkstra cannot?**
-   **Answer:** Detect negative weight cycles.
-
-2. **What is the time complexity of Bellman-Ford?**
-   **Answer:** `O(VE)`
-
-3. **How many times are edges relaxed (without early stopping)?**
-   **Answer:** `V - 1`
-
-4. **What is the update process called?**
-   **Answer:** Relaxation
-
 ---
 
 ## 🔗 Sources
