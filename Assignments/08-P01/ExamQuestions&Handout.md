@@ -3,20 +3,21 @@
 ### Multiple Choice 
 
 1. **What is the primary advantage of the Bellman-Ford algorithm over Dijkstra’s algorithm?**
+
    A. It is faster for all graphs
    B. It can detect negative weight cycles
    C. It uses less memory
    D. It only works with positive weights
    **→ Answer: B**
 
-2. **What is the time complexity of the Bellman-Ford algorithm for a graph with V vertices and E edges?**
+3. **What is the time complexity of the Bellman-Ford algorithm for a graph with V vertices and E edges?**
    A. O(V)
    B. O(E + V)
    C. O(VE)
    D. O(E log V)
    **→ Answer: C**
 
-3. **How many times does the Bellman-Ford algorithm relax all the edges in the graph (assuming no early stopping)?**
+4. **How many times does the Bellman-Ford algorithm relax all the edges in the graph (assuming no early stopping)?**
    A. V - 1
    B. E
    C. V
