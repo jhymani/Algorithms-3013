@@ -38,8 +38,9 @@
 ---
 
 ##  Bellman-Ford Algorithm Handout 
+# Bellman-Ford Algorithm - Student Handout
 
-## Key Concepts
+## 🧠 Key Concepts
 
 - Bellman-Ford computes the **shortest path** from a **single source** to all vertices in a weighted graph.
 - **Works with negative edge weights**, unlike Dijkstra.
@@ -47,7 +48,7 @@
 
 ---
 
-##  Algorithm Steps
+## 🔄 Algorithm Steps
 
 1. **Initialization**  
    - Set all distances to ∞, except the source (0).
@@ -76,7 +77,7 @@ B → D (5)
 
 ---
 
-##  Algorithm Comparison
+## 📊 Algorithm Comparison
 
 | Feature              | Bellman-Ford | Dijkstra | Floyd-Warshall |
 |----------------------|--------------|----------|----------------|
@@ -86,10 +87,36 @@ B → D (5)
 
 ---
 
-##  Real-World Applications
+## 📌 Real-World Applications
 
 - **GPS Navigation**: Adjusts routes with changing traffic (supports dynamic weights).
 - **Network Routing (e.g., RIP)**: Finds optimal paths, adjusts to failures.
 - **Currency Exchange**: Detects arbitrage opportunities via negative cycles.
 
 ---
+
+## ❓ Sample Exam Questions
+
+### Multiple Choice
+
+1. What is Bellman-Ford's biggest strength?  
+   → B. It can detect negative weight cycles
+
+2. Time complexity of Bellman-Ford?  
+   → C. O(VE)
+
+3. How many relaxations (no early stop)?  
+   → A. V - 1
+
+### Fill in the Blank
+
+1. Bellman-Ford detects __________ weight cycles.  
+   → **negative**
+
+2. The update process is called __________.  
+   → **relaxation**
+
+---
+
+
+
