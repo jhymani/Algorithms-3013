@@ -8,5 +8,5 @@
 |  4  |[05-H01](./05-H01/READme.md) |AVL Trees |           
 |  5  |[06-H02](./06-H02/PartA.md) |Hashing |    
 |  6  |[09-A04](./09-A04/READme.md) |Celebration of Scholorship |
-|  7  |[06-H02](./06-H02/PartA.md) |Presentation |   
+|  7  |[08-P01](./08-P01/Readme.md) |Presentation |   
 
