@@ -1,4 +1,4 @@
-// Jhymani Joseph
+Jhymani Joseph
 
 An AVL tree is a height, self-balancing binary search tree where, for every node, the heights of its two child subtrees differ by 1, 0, or -1, ensuring efficient operations like search, insertion, and deletion with a time complexity of O(log n). 
 
